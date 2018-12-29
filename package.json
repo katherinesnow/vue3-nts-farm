@@ -10,7 +10,12 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.4.11",
+    "js-cookie": "^2.2.0",
+    "seamless-immutable": "^7.1.4",
     "vue": "^2.5.17",
+    "vue-concise-slider": "^3.3.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

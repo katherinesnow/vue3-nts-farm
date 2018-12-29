@@ -1,0 +1,57 @@
+/**
+ * [lineMore 多行省略功能]
+ * @param  {[type]} $line:行数，默认1 [description]
+ * @return {[type]}         [description]
+ */
+@mixin ellipsis($line: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+/**
+ * [opacity 设置透明度]
+ * @param  {[type]} $opacity:透明度(100分制) ，默认50 [description]
+ * @return {[type]}             [description]
+ */
+@mixin opacity($opacity: 50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity = $opacity);
+}
+
+/**
+ * [clearfix 清除浮动]
+ * @return {[type]} [description]
+ */
+@mixin clearfix() {
+    &::before,
+    &::after {
+        display: block;
+        clear: both;
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+        content: " "; // 1
+        display: table; // 2
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+@mixin break-word() {
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@mixin radius($radius) {
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+

@@ -1,0 +1,63 @@
+// --------------------------------------------------
+// Clearfix
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//  contenteditable attribute is included anywhere else in the document.
+//  Otherwise it causes space to appear at the top and bottom of elements
+//  that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//  `:before` to contain the top-margins of child elements.
+// 字体规范
+// -------------------------
+$root: 14px;
+$font-size: $root;
+$font-family: "PingFang SC",
+"Hiragino Sans GB",
+"Microsoft YaHei",
+"微软雅黑",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
+
+$line-height: 1.5;
+
+// 字体大小，$font- 是设计规范大小的缩写,如: Extra large (el)
+$font-el: 20px;
+$font-l: 18px;
+$font-m: 16px;
+$font-s: 14px;
+$font-es: 13px;
+$font-ees: 12px;
+
+// 色彩倾向
+$color-default: #419EFF; // 蓝色
+$color-positive: #13CE66; // 绿色
+$color-warning: #F7BA2A; // 橙色
+$color-negative: #FF4949; // 红色
+$color-white: #fff; // 白色
+
+// 字体颜色
+$gray-dark: #1F2D3D;
+$gray: #475669;
+$gray-light: #5E6D82;
+$gray-lighter: #8492A6;
+$gray-lightest: #969696;
+$gray-co: #C0CCDA;
+
+// 边框颜色
+$border-gray: #99A9BF;
+$border-light: #C0CCDA;
+$border-lighter: #D3DCE6;
+$border-lightest: #E0E6ED;
+$border: 1px solid $border-lightest;
+
+// 背景色
+$background-color: #fff;
+
+$font-weight-base: 300;

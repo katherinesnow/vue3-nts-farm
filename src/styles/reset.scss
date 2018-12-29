@@ -1,0 +1,153 @@
+// 初始化重置样式
+@import './var.scss';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  -webkit-user-select: none;
+  font-size: .13rem;
+}   
+
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a {
+  color: inherit;
+}
+
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+  font-weight: normal;
+}
+
+html, body, fieldset, img, iframe, abbr {
+  border: 0;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+[hidefocus], summary {
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+
+pre, code, kbd, samp {
+  font-family: inherit;
+}
+
+q:before, q:after {
+  content: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label, summary {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+  font-weight: normal;
+}
+
+del, ins, u, s, a, a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+u, ins {
+  text-decoration: underline;
+}
+
+body, textarea, input, button, select, keygen, legend {
+  font-size: $font-size;
+  font-family: $font-family;
+  color: #41444e;
+  outline: 0;
+}
+
+
+input::-ms-clear, input::-ms-reveal {
+  display: none;
+}
+
+:-moz-placeholder {
+  color: #a6a6a6 !important;
+}
+
+::-moz-placeholder {
+  color: #a6a6a6 !important;
+}
+
+:-ms-input-placeholder {
+  color: #ccc !important;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc !important;
+}
+
+:root * {
+  filter: none \9
+  !important;
+}
+
+/* 设置滚动条的样式 */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+/* 滚动条滑块 */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #c1c0c1;
+}
+
+/* 滚动槽 */
+
+::-webkit-scrollbar-track {
+    background: #eef1f7;
+}
+
+* {
+    // -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
